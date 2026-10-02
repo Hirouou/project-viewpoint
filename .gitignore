@@ -1,0 +1,22 @@
+# Blender backups and temporary files
+*.blend1
+*.blend2
+*.blend@
+*.tmp
+*.bak
+*.aseprite
+*.ase
+*.zprite
+
+# Operating system files
+Thumbs.db
+.DS_Store
+
+Builds/
+__pycache__/
+*.pyc
+*.class
+*.jar
+*.log
+.env
+.env.*

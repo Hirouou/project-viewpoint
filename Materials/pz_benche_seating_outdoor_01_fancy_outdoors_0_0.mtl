@@ -1,0 +1,5 @@
+newmtl UV_Base
+Kd 1.000000 1.000000 1.000000
+d 1.0
+illum 1
+map_Kd ../textures/PNG/pz_benche_seating_outdoor_01_fancy_outdoors_0_0_UV.png

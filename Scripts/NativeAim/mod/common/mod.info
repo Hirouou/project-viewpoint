@@ -1,0 +1,10 @@
+name=Project ViewPoint: Native Aim
+id=ViewpointADSTest
+author=Hiroki
+description=Native iron-sight alignment in first person; vanilla third-person animations with spine pitch. Native actions retain control.
+modversion=0.4.9
+versionMin=42.21
+versionMax=42.21
+require=\Viewpoint,\ZombieBuddy
+javaJarFile=media/java/client/ViewpointNativeADS.jar
+javaPkgName=local.vpads

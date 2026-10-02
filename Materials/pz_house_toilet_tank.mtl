@@ -1,0 +1,5 @@
+newmtl native
+Kd 1.000000 1.000000 1.000000
+d 1.0
+illum 1
+map_Kd ../textures/PNG/pz_house_toilet_tank_UV.png

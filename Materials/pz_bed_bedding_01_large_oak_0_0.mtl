@@ -1,0 +1,5 @@
+newmtl UV_Base
+Kd 1.000000 1.000000 1.000000
+d 1.0
+illum 1
+map_Kd ../textures/PNG/pz_bed_bedding_01_large_oak_0_0_UV.png

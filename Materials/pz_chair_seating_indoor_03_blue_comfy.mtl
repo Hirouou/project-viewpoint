@@ -1,0 +1,5 @@
+newmtl UV_Base
+Kd 1.000000 1.000000 1.000000
+d 1.0
+illum 1
+map_Kd ../textures/PNG/pz_chair_seating_indoor_03_blue_comfy_UV.png

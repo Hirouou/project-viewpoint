@@ -1,0 +1,5 @@
+newmtl native_indicator
+Kd 1.000000 1.000000 1.000000
+d 1.0
+illum 1
+map_Kd ../textures/PNG/pz_house_switch_0_indicator_on_UV.png
