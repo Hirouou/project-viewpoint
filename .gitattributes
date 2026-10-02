@@ -1,0 +1,16 @@
+*.obj -text
+*.mtl -text
+*.png -text
+*.blend -text
+*.java text eol=lf
+*.py text eol=lf
+*.lua text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.vprg text eol=lf
+*.properties text eol=lf
+*.html text eol=lf
+*.csv text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
