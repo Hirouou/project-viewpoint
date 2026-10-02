@@ -1,6 +1,6 @@
 # Native Aim — código para colaboração
 
-Fontes do módulo de mira nativa 0.4.9 do Project ViewPoint, mantido por Hiroki. As dependências do jogo, Viewpoint e ZombieBuddy não fazem parte deste repositório.
+Fontes do módulo de mira nativa 0.4.9 do Project ViewPoint, mantido por Hiro.uou. As dependências do jogo, Viewpoint e ZombieBuddy não fazem parte deste repositório.
 
 - `source/local/vpads/`: alinhamento da mira/câmera, esqueleto, cinemática dos braços, prioridade de ações, captura, respiração, movimento e coice.
 - `mod/42/media/lua/client/ViewpointADSTest.lua`: ativação e comunicação com o módulo Java.
@@ -11,4 +11,4 @@ Leia [DEVELOPMENT.md](../../Docs/DEVELOPMENT.md) para compilar. Proponha ajustes
 
 A cópia pública omite a limpeza de identificadores antigos de animação que continham um nome pessoal. Ela não é um instalador nem uma ferramenta de migração de versões antigas. Alterações aceitas ainda dependem da revisão e integração do mantenedor.
 
-All Rights Reserved — Hiroki. Uso e alterações exclusivamente para contribuir com Project ViewPoint, conforme [LICENSE.md](../../LICENSE.md).
+All Rights Reserved — Hiro.uou. Uso e alterações exclusivamente para contribuir com Project ViewPoint, conforme [LICENSE.md](../../LICENSE.md).

@@ -1,6 +1,6 @@
 # Project ViewPoint — 3D Interiors & Native Aim
 
-Projeto de colaboração do mod **Project ViewPoint: 3D Interiors & Native Aim [B42.21]**, mantido por Hiroki (conta GitHub `Hirouou`). Inclui código de interiores, sistema de mira nativa e uma biblioteca de 603 modelos originais com mapas de textura e guias UV.
+Projeto de colaboração do mod **Project ViewPoint: 3D Interiors & Native Aim [B42.21]**, mantido por Hiro.uou (conta GitHub `Hirouou`). Inclui código de interiores, sistema de mira nativa e uma biblioteca de 603 modelos originais com mapas de textura e guias UV.
 
 ## Código do projeto
 
@@ -24,17 +24,17 @@ O índice em [Docs/UV-INDEX.csv](Docs/UV-INDEX.csv) facilita filtrar por nome. [
 
 ## Arquivos e direitos
 
-A biblioteca contém 603 OBJ, 603 MTL, 603 mapas PNG, 603 guias UV e uma cena Blender editável. Hiroki confirmou a autoria original dos modelos e mapas e autorizou sua publicação para colaboração no Project ViewPoint. Projetos Aseprite/Zprite, backups e folhas-fonte do jogo não fazem parte deste pacote.
+A biblioteca contém 603 OBJ, 603 MTL, 603 mapas PNG, 603 guias UV e uma cena Blender editável. Hiro.uou confirmou a autoria original dos modelos e mapas e autorizou sua publicação para colaboração no Project ViewPoint. Projetos Aseprite/Zprite, backups e folhas-fonte do jogo não fazem parte deste pacote.
 
-**© 2026 Hiroki. Todos os direitos reservados / All Rights Reserved.** A [licença](LICENSE.md) permite consultar, baixar, criar forks e editar os arquivos para propor melhorias ao mod por Pull Request. Reutilização em outro mod, jogo, projeto ou produto, venda e redistribuição independente exigem autorização prévia por escrito. Contribuições seguem o [guia de contribuição](CONTRIBUTING.md).
+**© 2026 Hiro.uou. Todos os direitos reservados / All Rights Reserved.** A [licença](LICENSE.md) permite consultar, baixar, criar forks e editar os arquivos para propor melhorias ao mod por Pull Request. Reutilização em outro mod, jogo, projeto ou produto, venda e redistribuição independente exigem autorização prévia por escrito. Contribuições seguem o [guia de contribuição](CONTRIBUTING.md).
 
 O pacote serve para revisão e colaboração. A integração no mod e qualquer atualização do Steam Workshop dependem da aprovação do mantenedor.
 
 ## Como enviar melhorias sem alterar a biblioteca oficial
 
-Crie um **fork** (uma cópia na sua própria conta), faça as alterações em uma branch dessa cópia e abra um **Pull Request** para este repositório. Sua proposta aparece na aba **Pull requests**, separada dos arquivos oficiais, para Hiroki revisar, pedir ajustes, aceitar ou recusar.
+Crie um **fork** (uma cópia na sua própria conta), faça as alterações em uma branch dessa cópia e abra um **Pull Request** para este repositório. Sua proposta aparece na aba **Pull requests**, separada dos arquivos oficiais, para Hiro.uou revisar, pedir ajustes, aceitar ou recusar.
 
-Abrir um Pull Request não altera a branch `main`. Somente Hiroki aprova e incorpora as mudanças; colaboradores da comunidade não recebem acesso direto de escrita ao repositório oficial. Até a aprovação e incorporação, quem baixar a biblioteca oficial continuará recebendo a versão do mantenedor.
+Abrir um Pull Request não altera a branch `main`. Somente Hiro.uou aprova e incorpora as mudanças; colaboradores da comunidade não recebem acesso direto de escrita ao repositório oficial. Até a aprovação e incorporação, quem baixar a biblioteca oficial continuará recebendo a versão do mantenedor.
 
 ## Comunidade
 

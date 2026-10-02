@@ -9,7 +9,7 @@
       "path": "Scripts/Reload-UV-PNGs.py"
     },
     {
-      "sha256": "52a54e9b900a9c80f200028ccf2462396d256909be87297291b712a3c0186b2a",
+      "sha256": "372f364c401983e9cb82df1d9c6309dd7a0d11461ec6a87832511b6f6254f9bf",
       "path": "Scripts/Interiors/README.md"
     },
     {
@@ -21,7 +21,7 @@
       "path": "Scripts/Interiors/mod/42/media/modelpacks/furniturefix/pack.properties"
     },
     {
-      "sha256": "0a0bd59a894720e1e5796d944a3b8a6986dd4888ff1fc8b4c83c2fa9b9cf7daf",
+      "sha256": "f297a5c513c55a9654d51054c061a697118c633866faf8ff9cc2271304aa0aeb",
       "path": "Scripts/Interiors/mod/common/mod.info"
     },
     {
@@ -45,7 +45,7 @@
       "path": "Scripts/Interiors/source/local/vpinteriors/SinkCounterSelector.java"
     },
     {
-      "sha256": "bbf0a77838fd0f7ddaa38f8ebe53046bb55296dc73d612de71ae00e122d12586",
+      "sha256": "d967b4366fb731e942a3e35ca99d9462bab1ee2f7ddd87867628eb26262c8ed2",
       "path": "Scripts/NativeAim/README.md"
     },
     {
@@ -145,7 +145,7 @@
       "path": "Scripts/NativeAim/mod/42/media/lua/client/ViewpointADSTest.lua"
     },
     {
-      "sha256": "6f8b10991ce7b619323c9b513a1c1acecace1b5cfb1eb9752ae5d9e4b405ca86",
+      "sha256": "275bdb2a32e6e7c1ee5d2eb5d6e62b53365e164106b78e73d8e055ea2fe3502e",
       "path": "Scripts/NativeAim/mod/common/mod.info"
     },
     {
@@ -251,6 +251,6 @@
   ],
   "github_account": "Hirouou",
   "interiors_version": "0.1.13",
-  "creator": "Hiroki",
+  "creator": "Hiro.uou",
   "native_aim_version": "0.4.9"
 }

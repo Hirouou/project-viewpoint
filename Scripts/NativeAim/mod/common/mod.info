@@ -1,6 +1,6 @@
 name=Project ViewPoint: Native Aim
 id=ViewpointADSTest
-author=Hiroki
+author=Hiro.uou
 description=Native iron-sight alignment in first person; vanilla third-person animations with spine pitch. Native actions retain control.
 modversion=0.4.9
 versionMin=42.21

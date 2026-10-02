@@ -4,7 +4,7 @@ This manifest records creator, source, dependencies, rights, and review status f
 
 ## Owner confirmation — 2026-10-02
 
-Hiroki expressly confirmed that all 603 models and their PNG maps in this collaboration package were created from scratch with Codex as his original project work, and authorized publishing them for people to improve the Project ViewPoint mod. This provenance record is based on that owner declaration. The permission is limited to collaboration on the mod; reuse in other games, mods, products, or projects is not granted. The public package is governed by `LICENSE.md`.
+Hiro.uou expressly confirmed that all 603 models and their PNG maps in this collaboration package were created from scratch with Codex as his original project work, and authorized publishing them for people to improve the Project ViewPoint mod. This provenance record is based on that owner declaration. The permission is limited to collaboration on the mod; reuse in other games, mods, products, or projects is not granted. The public package is governed by `LICENSE.md`.
 
 ## Audit snapshot — 2026-10-02
 
@@ -37,17 +37,17 @@ This checkout contains a maintainer-authorized UV collaboration package. Its 603
 
 | Repository path | Creator | Source / dependencies | SHA-256 | Rights and permission | Status |
 | --- | --- | --- | --- | --- | --- |
-| `models/*.obj` (603 files); `Materials/*.mtl` (603 files); `textures/PNG/*_UV.png` (603 files); `textures/UV-Guides/*_UV-Guia.png` (603 files); `models/ProjectViewPoint-UV-Library-Surfaces.blend` | Hiroki, original work confirmed by the owner on 2026-10-02 | Current local 0.1.11 project model pack plus G013/G014 project sources; original project PNG maps remapped to the UV layout; full source sheets excluded | Per-model file SHA-256 in `Docs/UV-MANIFEST.json` | All Rights Reserved; limited permission to review, fork and propose improvements for Project ViewPoint under `LICENSE.md` | Owner cleared for public contribution review; not yet integrated into the mod |
-| `Scripts/Reload-UV-PNGs.py` | Hiroki project tooling created with Codex | Reloads the project PNGs in the editable Blender scene | Versioned in the repository commit | Same project-only permission under `LICENSE.md` | Included supporting workflow |
-| `Scripts/NativeAim/**` | Hiroki project code and numeric calibration work | Native Aim 0.4.9 source snapshot; Java/Lua sources and calibration data only. External game/framework classes are dependencies, not included. Retired migration identifiers containing a personal name were removed from the public Lua copy. | Per-file SHA-256 in `Docs/SOURCE-MANIFEST.json` | Same project-only permission under `LICENSE.md` | Public development snapshot; not an installer |
-| `Scripts/Interiors/**` | Hiroki project code | Interiors 0.1.13 Java/Lua source snapshot and text-only model bindings. Runtime game/framework binaries and extracted source images are excluded. | Per-file SHA-256 in `Docs/SOURCE-MANIFEST.json` | Same project-only permission under `LICENSE.md` | Public development snapshot; model integration requires review |
-| `Scripts/build_project.py` | Hiroki project tooling created with Codex | Portable build entry point; dependency paths are supplied by each developer | Per-file SHA-256 in `Docs/SOURCE-MANIFEST.json` | Same project-only permission under `LICENSE.md` | No automatic installation or bundled dependencies |
+| `models/*.obj` (603 files); `Materials/*.mtl` (603 files); `textures/PNG/*_UV.png` (603 files); `textures/UV-Guides/*_UV-Guia.png` (603 files); `models/ProjectViewPoint-UV-Library-Surfaces.blend` | Hiro.uou, original work confirmed by the owner on 2026-10-02 | Current local 0.1.11 project model pack plus G013/G014 project sources; original project PNG maps remapped to the UV layout; full source sheets excluded | Per-model file SHA-256 in `Docs/UV-MANIFEST.json` | All Rights Reserved; limited permission to review, fork and propose improvements for Project ViewPoint under `LICENSE.md` | Owner cleared for public contribution review; not yet integrated into the mod |
+| `Scripts/Reload-UV-PNGs.py` | Hiro.uou project tooling created with Codex | Reloads the project PNGs in the editable Blender scene | Versioned in the repository commit | Same project-only permission under `LICENSE.md` | Included supporting workflow |
+| `Scripts/NativeAim/**` | Hiro.uou project code and numeric calibration work | Native Aim 0.4.9 source snapshot; Java/Lua sources and calibration data only. External game/framework classes are dependencies, not included. Retired migration identifiers containing a personal name were removed from the public Lua copy. | Per-file SHA-256 in `Docs/SOURCE-MANIFEST.json` | Same project-only permission under `LICENSE.md` | Public development snapshot; not an installer |
+| `Scripts/Interiors/**` | Hiro.uou project code | Interiors 0.1.13 Java/Lua source snapshot and text-only model bindings. Runtime game/framework binaries and extracted source images are excluded. | Per-file SHA-256 in `Docs/SOURCE-MANIFEST.json` | Same project-only permission under `LICENSE.md` | Public development snapshot; model integration requires review |
+| `Scripts/build_project.py` | Hiro.uou project tooling created with Codex | Portable build entry point; dependency paths are supplied by each developer | Per-file SHA-256 in `Docs/SOURCE-MANIFEST.json` | Same project-only permission under `LICENSE.md` | No automatic installation or bundled dependencies |
 
-Only files explicitly identified in this register as original work owned by Hiroki are covered by the All Rights Reserved notice in [`LICENSE.md`](LICENSE.md). A contributor's own file requires a separate, explicit project-only permission recorded here.
+Only files explicitly identified in this register as original work owned by Hiro.uou are covered by the All Rights Reserved notice in [`LICENSE.md`](LICENSE.md). A contributor's own file requires a separate, explicit project-only permission recorded here.
 
 ## Explicit exclusions
 
-These original paths remain excluded from the public model repository because they contain vanilla-game references/extractions, native image data, or uncurated runtime exports. Do not copy them wholesale. The registered per-model PNG maps and UV guides under this repository's `textures/` folder are included based on Hiroki's explicit confirmation that this package is his original work:
+These original paths remain excluded from the public model repository because they contain vanilla-game references/extractions, native image data, or uncurated runtime exports. Do not copy them wholesale. The registered per-model PNG maps and UV guides under this repository's `textures/` folder are included based on Hiro.uou's explicit confirmation that this package is his original work:
 
 | Excluded source path (relative to its named workspace) | Why it is excluded |
 | --- | --- |
@@ -66,4 +66,4 @@ Vanilla visual references may be documented by game-relative path/name and a sho
 
 ## Approval
 
-Hiroki reviews each proposed asset and decides whether to include it in the mod. A repository merge does not guarantee mod integration or a Steam Workshop update. Assets with unclear origin, embedded vanilla content, third-party dependencies, or missing project-only permission remain excluded.
+Hiro.uou reviews each proposed asset and decides whether to include it in the mod. A repository merge does not guarantee mod integration or a Steam Workshop update. Assets with unclear origin, embedded vanilla content, third-party dependencies, or missing project-only permission remain excluded.

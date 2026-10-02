@@ -31,4 +31,4 @@ Feche o jogo antes de qualquer instalação manual e preserve seus backups. Uma 
 
 ## Revisão e direitos
 
-Faça as mudanças no seu fork e abra um Pull Request para a branch `main` do repositório oficial. Só Hiroki decide se aceita e incorpora a proposta. O processo não concede acesso direto de escrita, nem permite reutilizar o código ou os modelos em outros projetos. Consulte [CONTRIBUTING.md](../CONTRIBUTING.md) e [LICENSE.md](../LICENSE.md).
+Faça as mudanças no seu fork e abra um Pull Request para a branch `main` do repositório oficial. Só Hiro.uou decide se aceita e incorpora a proposta. O processo não concede acesso direto de escrita, nem permite reutilizar o código ou os modelos em outros projetos. Consulte [CONTRIBUTING.md](../CONTRIBUTING.md) e [LICENSE.md](../LICENSE.md).
