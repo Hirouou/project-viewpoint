@@ -1,0 +1,4 @@
+newmtl pz_house_stool_bar_fidelity_r1_PS1
+Kd 1 1 1
+d 1
+map_Kd pz_house_stool_bar_fidelity_r1_UV.png

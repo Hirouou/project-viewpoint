@@ -1,0 +1,7 @@
+newmtl UV_Base
+Kd 1 1 1
+Ka .25 .25 .25
+Ks 0 0 0
+d 1
+illum 1
+map_Kd pz_chair_seating_indoor_03_victorian_4_fidelity_r1_UV.png

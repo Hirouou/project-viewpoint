@@ -14,6 +14,12 @@ def build_module(module_name, game_dir, dependency_jars, compiler, jar):
     sources = sorted((module_root / "source").rglob("*.java"))
     classpath = os.pathsep.join(str(path) for path in [*sorted(game_dir.glob("*.jar")), *dependency_jars])
     subprocess.run([*compiler, "-encoding", "UTF-8", "-classpath", classpath, "-d", str(classes), *map(str, sources)], check=True)
+    # Include original runtime resources (roof meshes) in the generated JAR.
+    for resource in (module_root / "source").rglob("*"):
+        if resource.is_file() and resource.suffix not in {".java", ".class"}:
+            copied = classes / resource.relative_to(module_root / "source")
+            copied.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(resource, copied)
     mod_root = output_root / "mod"
     shutil.copytree(module_root / "mod", mod_root, dirs_exist_ok=True)
     package = "local/vpads" if module_name == "NativeAim" else "local/vpinteriors"

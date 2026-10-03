@@ -1,0 +1,4 @@
+newmtl body
+Kd 1 1 1
+d 1
+map_Kd pz_chair_seating_outdoor_01_plastic_fidelity_r1_UV.png

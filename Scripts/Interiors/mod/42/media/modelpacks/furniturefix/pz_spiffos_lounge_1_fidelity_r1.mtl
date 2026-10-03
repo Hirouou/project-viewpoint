@@ -1,0 +1,8 @@
+newmtl pz_spiffos_lounge_1_fidelity_r1
+Ka 0.25 0.25 0.25
+Kd 1.0 1.0 1.0
+Ks 0.0 0.0 0.0
+Ns 0
+d 1
+illum 1
+map_Kd pz_spiffos_lounge_1_fidelity_r1_UV.png

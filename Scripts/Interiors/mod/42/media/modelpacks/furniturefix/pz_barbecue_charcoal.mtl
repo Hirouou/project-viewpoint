@@ -1,0 +1,39 @@
+newmtl body
+Kd 1 1 1
+illum 1
+map_Kd tx11_pz_barbecue_charcoal_unwrap.png
+
+newmtl red
+Kd 1 1 1
+illum 1
+map_Kd tx11_pz_barbecue_charcoal_unwrap.png
+
+newmtl body
+Kd 1 1 1
+illum 1
+map_Kd tx11_pz_barbecue_charcoal_unwrap.png
+
+newmtl metal
+Kd 1 1 1
+illum 1
+map_Kd tx11_pz_barbecue_charcoal_unwrap.png
+
+newmtl metal
+Kd 1 1 1
+illum 1
+map_Kd tx11_pz_barbecue_charcoal_unwrap.png
+
+newmtl metal
+Kd 1 1 1
+illum 1
+map_Kd tx11_pz_barbecue_charcoal_unwrap.png
+
+newmtl metal
+Kd 1 1 1
+illum 1
+map_Kd tx11_pz_barbecue_charcoal_unwrap.png
+
+newmtl metal
+Kd 1 1 1
+illum 1
+map_Kd tx11_pz_barbecue_charcoal_unwrap.png

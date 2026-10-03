@@ -1,0 +1,4 @@
+newmtl native
+Kd 1 1 1
+illum 1
+map_Kd pz_counter_trailer_corner.png

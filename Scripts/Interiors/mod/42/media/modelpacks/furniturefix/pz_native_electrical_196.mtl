@@ -1,0 +1,5 @@
+newmtl Native_pz_native_electrical_196
+Kd 1 1 1
+d 1
+illum 1
+map_Kd native_electrical_components.png

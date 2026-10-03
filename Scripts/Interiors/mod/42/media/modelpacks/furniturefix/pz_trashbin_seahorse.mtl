@@ -1,0 +1,24 @@
+newmtl body
+Kd 1 1 1
+illum 1
+map_Kd perf_pz_trashbin_seahorse.png
+
+newmtl lid
+Kd 1 1 1
+illum 1
+map_Kd perf_pz_trashbin_seahorse.png
+
+newmtl body
+Kd 1 1 1
+illum 1
+map_Kd perf_pz_trashbin_seahorse.png
+
+newmtl lid
+Kd 1 1 1
+illum 1
+map_Kd perf_pz_trashbin_seahorse.png
+
+newmtl inside
+Kd 1 1 1
+illum 1
+map_Kd perf_pz_trashbin_seahorse.png

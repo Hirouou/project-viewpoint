@@ -1,0 +1,9 @@
+newmtl metal
+Kd 1 1 1
+illum 1
+map_Kd perf_pz_street_pole_02.png
+
+newmtl metal
+Kd 1 1 1
+illum 1
+map_Kd perf_pz_street_pole_02.png

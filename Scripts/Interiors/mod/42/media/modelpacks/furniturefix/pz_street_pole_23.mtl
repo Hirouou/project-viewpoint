@@ -1,0 +1,34 @@
+newmtl metal
+Kd 1 1 1
+illum 1
+map_Kd tx14_pz_street_pole_23_pz_street_pole_23_unwrap.png
+
+newmtl metal
+Kd 1 1 1
+illum 1
+map_Kd tx14_pz_street_pole_23_pz_street_pole_23_unwrap.png
+
+newmtl metal
+Kd 1 1 1
+illum 1
+map_Kd tx14_pz_street_pole_23_pz_street_pole_23_unwrap.png
+
+newmtl signal
+Kd 1 1 1
+illum 1
+map_Kd tx14_pz_street_pole_23_pz_street_pole_23_unwrap.png
+
+newmtl signal_2.18
+Kd 1 1 1
+illum 1
+map_Kd tx14_pz_street_pole_23_pz_street_pole_23_unwrap.png
+
+newmtl signal_1.98
+Kd 1 1 1
+illum 1
+map_Kd tx14_pz_street_pole_23_pz_street_pole_23_unwrap.png
+
+newmtl signal_1.78
+Kd 1 1 1
+illum 1
+map_Kd tx14_pz_street_pole_23_pz_street_pole_23_unwrap.png

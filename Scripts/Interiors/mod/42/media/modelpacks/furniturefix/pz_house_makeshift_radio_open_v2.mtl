@@ -1,0 +1,5 @@
+newmtl UV_Base
+Kd 1 1 1
+d 1.0
+illum 1
+map_Kd pz_house_makeshift_radio_open_v2_UV.png

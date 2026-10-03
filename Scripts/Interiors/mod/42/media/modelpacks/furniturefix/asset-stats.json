@@ -1,0 +1,11 @@
+{
+  "version": "0.1.18",
+  "models": 2284,
+  "sprite_bindings": 2335,
+  "triangles": 189546,
+  "unique_referenced_textures": 1519,
+  "uncompressed_rgba_bytes": 244187536,
+  "native_roof_trim_profiles": 182,
+  "native_roof_trim_triangles": 7284,
+  "measured_in_game_fps": null
+}

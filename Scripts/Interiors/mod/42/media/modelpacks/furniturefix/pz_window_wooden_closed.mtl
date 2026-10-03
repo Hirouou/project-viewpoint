@@ -1,0 +1,10 @@
+newmtl wood
+Kd 1 1 1
+illum 1
+map_Kd perf_pz_window_wooden_closed.png
+
+newmtl glass
+Kd 1 1 1
+illum 1
+map_Kd perf_pz_window_wooden_closed.png
+

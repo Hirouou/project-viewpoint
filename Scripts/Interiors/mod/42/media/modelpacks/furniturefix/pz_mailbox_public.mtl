@@ -1,0 +1,29 @@
+newmtl blue
+Kd 1 1 1
+illum 1
+map_Kd perf_pz_mailbox_public.png
+
+newmtl blue
+Kd 1 1 1
+illum 1
+map_Kd perf_pz_mailbox_public.png
+
+newmtl blue
+Kd 1 1 1
+illum 1
+map_Kd perf_pz_mailbox_public.png
+
+newmtl blue
+Kd 1 1 1
+illum 1
+map_Kd perf_pz_mailbox_public.png
+
+newmtl label
+Kd 1 1 1
+illum 1
+map_Kd perf_pz_mailbox_public.png
+
+newmtl metal
+Kd 1 1 1
+illum 1
+map_Kd perf_pz_mailbox_public.png

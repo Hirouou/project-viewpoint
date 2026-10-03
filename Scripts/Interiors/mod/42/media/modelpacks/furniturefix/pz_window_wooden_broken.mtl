@@ -1,0 +1,10 @@
+newmtl wood
+Kd 1 1 1
+illum 1
+map_Kd g007_fixtures_windows_01_4.png
+
+newmtl glass
+Kd 1 1 1
+illum 1
+map_Kd g007_fixtures_windows_01_4.png
+

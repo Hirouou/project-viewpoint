@@ -1,0 +1,4 @@
+newmtl body
+Kd 1 1 1
+d 1
+map_Kd pz_phone_rotary_beige_UV.png

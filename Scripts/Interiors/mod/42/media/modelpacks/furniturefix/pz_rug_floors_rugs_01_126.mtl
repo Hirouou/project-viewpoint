@@ -1,0 +1,4 @@
+newmtl native
+Kd 1 1 1
+illum 1
+map_Kd perf_pz_rug_floors_rugs_01_126.png

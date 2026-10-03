@@ -1,14 +1,12 @@
-# Interiores — código para colaboração
+# Interiors 0.1.18
 
-Fontes Java e Lua do módulo de interiores 0.1.13 do Project ViewPoint, mantido por Hiro.uou.
+Original runtime source and the verified model pack for Project ViewPoint.
 
-- `source/local/vpinteriors/`: seleção dos estados visuais, integração de pias/balcões e carregamento do módulo.
-- `mod/42/media/lua/client/ViewpointFurnitureFix.lua`: registro e controle da integração com o Viewpoint.
-- `mod/42/media/modelpacks/furniturefix/pack.properties`: associações de sprites/modelos do snapshot de runtime. Os nomes do jogo são referências de integração, não arquivos redistribuídos.
-- `mod/common/mod.info`: identificação e dependências.
+- `source/local/vpinteriors/`: Java hooks and original serialized roof resources.
+- `mod/common/mod.info`: version and dependencies.
+- `mod/42/media/modelpacks/furniturefix/pack.properties`: authoritative runtime model/sprite associations.
+- `mod/42/media/lua/client/ViewpointFurnitureFix.lua`: module registration.
 
-A biblioteca editável em `models/`, `Materials/` e `textures/` possui UVs preparadas para colaboração. Não substitua automaticamente o pack instalado: o manifesto do runtime e os caminhos de textura precisam de integração e revisão em jogo. As builds locais não incluem os assets de runtime nem o poster.
+Build with `Scripts/build_project.py` and locally installed Project Zomboid, Viewpoint and ZombieBuddy dependencies. The repository does not include their Java binaries. The builder packages the roof resources along with the original classes. Native Aim in the Steam download remains 0.4.11.
 
-Leia [DEVELOPMENT.md](../../Docs/DEVELOPMENT.md). Envie mudanças em uma branch de seu fork e abra um Pull Request para Hiro.uou revisar. Mantenha inventário, interação e colisão sob responsabilidade do jogo.
-
-All Rights Reserved — Hiro.uou. Uso exclusivamente para contribuir com Project ViewPoint, conforme [LICENSE.md](../../LICENSE.md).
+See `Docs/Build-0.1.18-PT-BR.md` for changes and known remaining issues. Offline checks passed; gameplay/FPS confirmation remains separate.

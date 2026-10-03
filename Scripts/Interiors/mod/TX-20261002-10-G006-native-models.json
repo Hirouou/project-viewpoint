@@ -1,0 +1,299 @@
+[
+  {
+    "name": "pz_coffee_xpress",
+    "texture": "pz_coffee_xpress_native.png",
+    "triangles": 1360,
+    "source_sprites": [
+      "appliances_cooking_01_56",
+      "appliances_cooking_01_57",
+      "appliances_cooking_01_58",
+      "appliances_cooking_01_59"
+    ],
+    "category": "coffee_maker",
+    "placement": 0,
+    "bounds": [
+      [
+        -0.1550000011920929,
+        0.1550000011920929
+      ],
+      [
+        -0.1899999976158142,
+        0.18000000715255737
+      ],
+      [
+        0.009999999776482582,
+        0.4410000145435333
+      ]
+    ],
+    "uv_status": "Native regional atlas; offline/importer review, in-game pending",
+    "curves_editable": true,
+    "height_calibration": "Native renderYOffset and support surface must be checked in game."
+  },
+  {
+    "name": "pz_barbecue_charcoal",
+    "texture": "pz_barbecue_charcoal_native.png",
+    "triangles": 2080,
+    "source_sprites": [
+      "appliances_cooking_01_35"
+    ],
+    "category": "charcoal_barbecue",
+    "placement": 0,
+    "bounds": [
+      [
+        -0.2849999964237213,
+        0.2849999964237213
+      ],
+      [
+        -0.31303054094314575,
+        0.2849999964237213
+      ],
+      [
+        0.024880865588784218,
+        0.9307751655578613
+      ]
+    ],
+    "uv_status": "Native regional atlas; offline/importer review, in-game pending",
+    "curves_editable": true,
+    "height_calibration": "Native renderYOffset and support surface must be checked in game."
+  },
+  {
+    "name": "pz_barbecue_full_jorge",
+    "texture": "pz_barbecue_full_jorge_native.png",
+    "triangles": 4024,
+    "source_sprites": [
+      "appliances_cooking_01_36",
+      "appliances_cooking_01_37",
+      "appliances_cooking_01_38",
+      "appliances_cooking_01_39"
+    ],
+    "category": "gas_barbecue",
+    "placement": 0,
+    "bounds": [
+      [
+        -0.5400000214576721,
+        0.5400000214576721
+      ],
+      [
+        -0.34123319387435913,
+        0.26499998569488525
+      ],
+      [
+        0.0010000020265579224,
+        1.0449999570846558
+      ]
+    ],
+    "uv_status": "Native regional atlas; offline/importer review, in-game pending",
+    "curves_editable": true,
+    "height_calibration": "Native renderYOffset and support surface must be checked in game."
+  },
+  {
+    "name": "pz_barbecue_jorge",
+    "texture": "pz_barbecue_jorge_native.png",
+    "triangles": 3336,
+    "source_sprites": [
+      "appliances_cooking_01_44",
+      "appliances_cooking_01_45",
+      "appliances_cooking_01_46",
+      "appliances_cooking_01_47"
+    ],
+    "category": "gas_barbecue",
+    "placement": 0,
+    "bounds": [
+      [
+        -0.5400000214576721,
+        0.5400000214576721
+      ],
+      [
+        -0.34123319387435913,
+        0.26499998569488525
+      ],
+      [
+        0.0010000020265579224,
+        1.0449999570846558
+      ]
+    ],
+    "uv_status": "Native regional atlas; offline/importer review, in-game pending",
+    "curves_editable": true,
+    "height_calibration": "Native renderYOffset and support surface must be checked in game."
+  },
+  {
+    "name": "pz_phone_rotary_beige",
+    "texture": "pz_phone_rotary_beige_native.png",
+    "triangles": 3880,
+    "source_sprites": [
+      "location_business_office_generic_02_0",
+      "location_business_office_generic_02_1",
+      "location_business_office_generic_02_2",
+      "location_business_office_generic_02_3"
+    ],
+    "category": "tabletop_phone",
+    "placement": 0,
+    "bounds": [
+      [
+        -0.20381906628608704,
+        0.1509999930858612
+      ],
+      [
+        -0.2582879662513733,
+        0.125
+      ],
+      [
+        0.004500340670347214,
+        0.19405829906463623
+      ]
+    ],
+    "uv_status": "Native regional atlas; offline/importer review, in-game pending",
+    "curves_editable": true,
+    "height_calibration": "Native renderYOffset and support surface must be checked in game."
+  },
+  {
+    "name": "pz_phone_rotary_black",
+    "texture": "pz_phone_rotary_black_native.png",
+    "triangles": 3880,
+    "source_sprites": [
+      "location_business_office_generic_02_4",
+      "location_business_office_generic_02_5",
+      "location_business_office_generic_02_6",
+      "location_business_office_generic_02_7"
+    ],
+    "category": "tabletop_phone",
+    "placement": 0,
+    "bounds": [
+      [
+        -0.20381906628608704,
+        0.1509999930858612
+      ],
+      [
+        -0.2582879662513733,
+        0.125
+      ],
+      [
+        0.004500340670347214,
+        0.19405829906463623
+      ]
+    ],
+    "uv_status": "Native regional atlas; offline/importer review, in-game pending",
+    "curves_editable": true,
+    "height_calibration": "Native renderYOffset and support surface must be checked in game."
+  },
+  {
+    "name": "pz_phone_rotary_red",
+    "texture": "pz_phone_rotary_red_native.png",
+    "triangles": 3880,
+    "source_sprites": [
+      "location_business_office_generic_02_8",
+      "location_business_office_generic_02_9",
+      "location_business_office_generic_02_10",
+      "location_business_office_generic_02_11"
+    ],
+    "category": "tabletop_phone",
+    "placement": 0,
+    "bounds": [
+      [
+        -0.20381906628608704,
+        0.1509999930858612
+      ],
+      [
+        -0.2582879662513733,
+        0.125
+      ],
+      [
+        0.004500340670347214,
+        0.19405829906463623
+      ]
+    ],
+    "uv_status": "Native regional atlas; offline/importer review, in-game pending",
+    "curves_editable": true,
+    "height_calibration": "Native renderYOffset and support surface must be checked in game."
+  },
+  {
+    "name": "pz_phone_rotary_white",
+    "texture": "pz_phone_rotary_white_native.png",
+    "triangles": 3880,
+    "source_sprites": [
+      "location_business_office_generic_02_12",
+      "location_business_office_generic_02_13",
+      "location_business_office_generic_02_14",
+      "location_business_office_generic_02_15"
+    ],
+    "category": "tabletop_phone",
+    "placement": 0,
+    "bounds": [
+      [
+        -0.20381906628608704,
+        0.1509999930858612
+      ],
+      [
+        -0.2582879662513733,
+        0.125
+      ],
+      [
+        0.004500340670347214,
+        0.19405829906463623
+      ]
+    ],
+    "uv_status": "Native regional atlas; offline/importer review, in-game pending",
+    "curves_editable": true,
+    "height_calibration": "Native renderYOffset and support surface must be checked in game."
+  },
+  {
+    "name": "pz_phone_modern_white",
+    "texture": "pz_phone_modern_white_native.png",
+    "triangles": 5748,
+    "source_sprites": [
+      "location_business_office_generic_02_16",
+      "location_business_office_generic_02_17",
+      "location_business_office_generic_02_18",
+      "location_business_office_generic_02_19"
+    ],
+    "category": "tabletop_phone",
+    "placement": 0,
+    "bounds": [
+      [
+        -0.20366083085536957,
+        0.18700000643730164
+      ],
+      [
+        -0.2582879662513733,
+        0.13300000131130219
+      ],
+      [
+        0.004500340670347214,
+        0.16829663515090942
+      ]
+    ],
+    "uv_status": "Native regional atlas; offline/importer review, in-game pending",
+    "curves_editable": true,
+    "height_calibration": "Native renderYOffset and support surface must be checked in game."
+  },
+  {
+    "name": "pz_phone_modern_black",
+    "texture": "pz_phone_modern_black_native.png",
+    "triangles": 5748,
+    "source_sprites": [
+      "location_business_office_generic_02_20",
+      "location_business_office_generic_02_21",
+      "location_business_office_generic_02_22",
+      "location_business_office_generic_02_23"
+    ],
+    "category": "tabletop_phone",
+    "placement": 0,
+    "bounds": [
+      [
+        -0.20366083085536957,
+        0.18700000643730164
+      ],
+      [
+        -0.2582879662513733,
+        0.13300000131130219
+      ],
+      [
+        0.004500340670347214,
+        0.16829663515090942
+      ]
+    ],
+    "uv_status": "Native regional atlas; offline/importer review, in-game pending",
+    "curves_editable": true,
+    "height_calibration": "Native renderYOffset and support surface must be checked in game."
+  }
+]

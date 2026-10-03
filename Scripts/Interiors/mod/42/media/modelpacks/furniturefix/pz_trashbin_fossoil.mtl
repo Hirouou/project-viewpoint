@@ -1,0 +1,14 @@
+newmtl body
+Kd 1 1 1
+illum 1
+map_Kd tx14_pz_trashbin_fossoil_pz_trashbin_fossoil_unwrap.png
+
+newmtl lid
+Kd 1 1 1
+illum 1
+map_Kd tx14_pz_trashbin_fossoil_pz_trashbin_fossoil_unwrap.png
+
+newmtl inside
+Kd 1 1 1
+illum 1
+map_Kd tx14_pz_trashbin_fossoil_pz_trashbin_fossoil_unwrap.png

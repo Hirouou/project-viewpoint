@@ -1,3 +1,7 @@
+## Current build: Interiors 0.1.18
+
+The complete Interiors model pack and original runtime sources are in `Scripts/Interiors`. [Update notes and remaining issues](Docs/Build-0.1.18-PT-BR.md). [Offline validation](Docs/Build-0.1.18-Validation.json). The Steam package also includes Native Aim 0.4.11.
+
 # Project ViewPoint — 3D Interiors & Native Aim
 
 Projeto de colaboração do mod **Project ViewPoint: 3D Interiors & Native Aim [B42.21]**, mantido por Hiro.uou (conta GitHub `Hirouou`). Inclui código de interiores, sistema de mira nativa e uma biblioteca de 603 modelos originais com mapas de textura e guias UV.

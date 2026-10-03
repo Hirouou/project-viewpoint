@@ -1,0 +1,107 @@
+{
+  "version": "0.1.18",
+  "runtime_jar_sha256": "5cbf81e8e71437a17b8a12377528b3235818fc37f466bcd1fec9d58b2b3ff2a5",
+  "all_passed": true,
+  "tests": {
+    "ValidateModels": {
+      "exit": 0,
+      "result": "MODELS=2286 TRIANGLES=189654 ERRORS=0"
+    },
+    "VerifyPackManifest": {
+      "exit": 0,
+      "result": "PASS: actual Viewpoint manifest parser accepted all entries."
+    },
+    "VerifySinkCounterSelector": {
+      "exit": 0,
+      "result": "PASS 216 actual object/square cases: nine counter families, four angles, oval/rect sinks, attached sprites, overlay, native height offset, removal, unrelated utility sink, no context leak. Two hooks verified with installed Viewpoint/ZombieBuddy."
+    },
+    "VerifyCurrentAssets": {
+      "exit": 0,
+      "result": "PASS 35 native window states/orientations and ground-relative rug heights."
+    },
+    "VerifyWindowGlass": {
+      "exit": 0,
+      "result": "PASS 2688 native states and 658 transparent recipes / 3948 vertices: native offsets, wall orientation, correct height, alpha pass, UVs, room ownership, static sprite states, independent packs preserved."
+    },
+    "VerifyWindowWorldPlacement": {
+      "exit": 0,
+      "result": "PASS 672 frame-to-wall and 658 glass-to-frame world alignments; maximum gaps 0.0 / 0.0 tile"
+    },
+    "VerifyExteriorAssets": {
+      "exit": 0,
+      "result": "PASS 103 assertions: exterior windows, doors and wall lamps keep model square64; indoor furniture and uncertain edges retain masks."
+    },
+    "VerifyRoofGeometry": {
+      "exit": 0,
+      "result": "PASS 1035 assertions: actual native parser and aliases, real Viewpoint create transformed via ByteBuddy, missing corners, preserved existing meshes/floor/wall/props, alias cycles, native UVs/winding/copies."
+    },
+    "VerifyRoofCompletion": {
+      "exit": 0,
+      "result": "PASS 8303 assertions: native A/B main+garage, X/Z signed seams, ridge/eave bounds, reflected winding, no duplicates, native completed roofs retained, unknown/unloaded geometry skipped."
+    },
+    "VerifyRoofDormer": {
+      "exit": 0,
+      "result": "PASS 1159 assertions: native projecting17 profile, clipped two-tier opposite water/ridge, footprint, normals/winding, existing and unknown surfaces retained."
+    },
+    "ExportNativeGables": {
+      "exit": 0,
+      "result": "PASS 80 assertions: five source gables retain native wall plane with RoofGeometry Advice; exterior model handling preserves native edge owners, runs and vertices while indoor furniture retains square18."
+    },
+    "VerifyRoofRuntime": {
+      "exit": 0,
+      "result": "PASS: 5900 runtime WorldGrid/Recipe/Cook and gather Advice assertions; fake ready atlas pages, no OpenGL context"
+    },
+    "VerifyRoofStreaming": {
+      "exit": 0,
+      "result": "PASS: 11657 runtime, distant streaming, native mutation dirtying, bounds/reset and actual Advice assertions; no OpenGL context"
+    },
+    "VerifyPotatoCompatibility-false": {
+      "exit": 0,
+      "result": "PASS: 87 checks on original installed ModelPacks; no settings saved"
+    },
+    "WeavePotatoAdvice": {
+      "exit": 0,
+      "result": "PASS: installed ModelPacks bytecode accepts ring, frame and existing bind Advice hooks"
+    },
+    "VerifyPotatoCompatibility-true": {
+      "exit": 0,
+      "result": "PASS: 90 checks on Byte Buddy woven ModelPacks; no settings saved"
+    },
+    "VerifyPotatoSinkIntegration": {
+      "exit": 0,
+      "result": "PASS: 40 actual combined Advice/cavity cases; modern and trailer counters, four orientations, overlapping other pack"
+    },
+    "RoofComponents": {
+      "exit": 0,
+      "result": "PASS 67447 assertions: native White-C components, local intersections, UV/finite/normals, bounded/unknown proof."
+    },
+    "UnifiedHooks": {
+      "exit": 0,
+      "result": "146 assertions, 11 patches, 5 jointly woven targets"
+    },
+    "UnifiedTrims": {
+      "exit": 0,
+      "result": "18345 assertions, 182 native/snow profiles"
+    },
+    "NativePropsCook": {
+      "exit": 0,
+      "result": "325117 assertions, 40 models, 480 angle/height cases"
+    },
+    "StreetOrientation": {
+      "exit": 0,
+      "result": "9600 assertions, four STOP orientations and four gate assemblies"
+    }
+  },
+  "stats": {
+    "version": "0.1.18",
+    "models": 2284,
+    "sprite_bindings": 2335,
+    "triangles": 189546,
+    "unique_referenced_textures": 1519,
+    "uncompressed_rgba_bytes": 244187536,
+    "native_roof_trim_profiles": 182,
+    "native_roof_trim_triangles": 7284,
+    "measured_in_game_fps": null
+  },
+  "live_game_verified": false
+}

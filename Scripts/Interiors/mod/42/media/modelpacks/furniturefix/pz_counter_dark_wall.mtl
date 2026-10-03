@@ -1,0 +1,4 @@
+newmtl original
+Kd 1 1 1
+illum 1
+map_Kd g011_dark_wall.png

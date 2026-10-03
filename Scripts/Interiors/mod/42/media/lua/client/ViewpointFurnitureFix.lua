@@ -37,7 +37,7 @@ local function registerPack(reportMissing)
 
     lastFailure = nil
     if not loggedSuccess then
-        print("[ViewpointFurnitureFix] 0.1.13 local test registered: mattress-height bedside table, backed trailer shelf, trailer sink cutouts, and double-sided native foliage cards.")
+        print("[ViewpointFurnitureFix] 0.1.18 local test registered: roof completion, exterior wall visibility, Potato compatibility and new street models; native window frames and transparent glass; mattress-height bedside table, backed trailer shelf, trailer sink cutouts, and double-sided native foliage cards.")
         loggedSuccess = true
     end
     return true

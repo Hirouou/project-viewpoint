@@ -1,0 +1,4 @@
+newmtl body
+Kd 1 1 1
+d 1
+map_Kd pz_sink_inset_industrial_UV.png

@@ -1,0 +1,4 @@
+newmtl native_live
+Kd 1 1 1
+illum 1
+map_Kd tx12_pz_chair_seating_indoor_03_victorian_5_live.png

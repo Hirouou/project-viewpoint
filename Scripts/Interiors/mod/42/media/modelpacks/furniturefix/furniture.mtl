@@ -1,0 +1,5 @@
+newmtl furniture
+Kd 1 1 1
+d 1
+illum 1
+map_Kd perf_contents_books_misc_02_55.png

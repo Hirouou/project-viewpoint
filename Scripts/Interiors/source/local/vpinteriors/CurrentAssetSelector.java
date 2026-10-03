@@ -14,17 +14,20 @@ import viewpoint.render.PackModels;
 public final class CurrentAssetSelector {
     private static final Map<String,PackModel> windows=new ConcurrentHashMap<>();
     private static final Map<String,PackBind> cache=new ConcurrentHashMap<>();
-    public static void load(Path pack){
+    public static void load(Path pack)throws Exception{
         windows.clear();cache.clear();
         for(String state:new String[]{"closed","open","broken","glass_removed"}){
             Path file=pack.resolve("pz_window_wooden_"+state+".obj");
             if(Files.isRegularFile(file))windows.put(state,PackModels.of(file.toFile()));
         }
         PackModels.publish();
+        WindowAssets.load(pack);
     }
     public static PackBind select(IsoSprite sprite,PackBind original){
         IsoObject object=SinkCounterSelector.current();
         if(original==null||sprite==null||object==null)return original;
+        PackBind window=WindowAssets.select(object,sprite,original);
+        if(window!=original)return window;
         String id=SinkCounterSelector.id(original);
         if(id.startsWith("pz_rug_"))
             return replace(original,original.model,original.z-SinkCounterSelector.rise(object));

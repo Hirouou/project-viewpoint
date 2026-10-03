@@ -8,7 +8,7 @@ public final class Main {
             Path pack=findPack(root);
             SinkCounterSelector.load(pack);
             CurrentAssetSelector.load(pack);
-        }catch(Throwable e){System.out.println("[ViewpointInteriors] Sink selection unavailable: "+e);}
+        }catch(Throwable e){System.out.println("[ViewpointInteriors] Companion asset selection unavailable: "+e);}
     }
     static Path findPack(Path root) throws java.io.FileNotFoundException {
         for(Path p:new Path[]{root.resolve("42/media/modelpacks/furniturefix"),root.resolve("media/modelpacks/furniturefix"),root.resolve("common/media/modelpacks/furniturefix")})

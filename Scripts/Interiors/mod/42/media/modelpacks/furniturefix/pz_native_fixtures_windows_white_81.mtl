@@ -1,0 +1,7 @@
+newmtl Native_pz_native_fixtures_windows_white_81
+Kd 1 1 1
+Ka 0.25 0.25 0.25
+Ks 0 0 0
+d 1
+illum 1
+map_Kd pz_native_fixtures_windows_white_81_UV.png
