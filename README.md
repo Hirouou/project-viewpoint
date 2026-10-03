@@ -55,3 +55,5 @@ Abrir um Pull Request não altera a branch `main`. Somente Hiro.uou aprova e inc
 ## Comunidade
 
 Converse sobre contribuições e acompanhe o projeto no [Discord do Project ViewPoint](https://discord.gg/ME53neUunA).
+
+Se quiser apoiar o desenvolvimento, visite o [Ko-fi do estúdio](https://ko-fi.com/chocomilkestudio).
