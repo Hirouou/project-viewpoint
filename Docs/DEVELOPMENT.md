@@ -1,6 +1,6 @@
 # Desenvolvimento do Project ViewPoint
 
-Este repositório inclui o código original dos módulos Native Aim 0.4.9 e Interiores 0.1.13, além dos modelos editáveis e mapas UV. Ele não inclui o código de terceiros que fornece o renderizador Viewpoint, o agente ZombieBuddy ou o próprio jogo.
+Este repositório inclui o snapshot de colaboração do Native Aim 0.4.9 e os fontes de Interiores 0.1.18, além dos modelos editáveis e mapas UV. A versão jogável do Native Aim na Steam é 0.4.11; os fontes de colaboração dessa pasta não representam integralmente aquele binário. Os dois módulos agora têm [itens separados no Workshop](MOD-SPLIT.md). O repositório não inclui o código de terceiros que fornece o renderizador Viewpoint, o agente ZombieBuddy ou o próprio jogo.
 
 ## Dependências locais
 

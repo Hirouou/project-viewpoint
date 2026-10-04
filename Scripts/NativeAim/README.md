@@ -1,6 +1,10 @@
 # Native Aim — código para colaboração
 
-Fontes do módulo de mira nativa 0.4.9 do Project ViewPoint, mantido por Hiro.uou. As dependências do jogo, Viewpoint e ZombieBuddy não fazem parte deste repositório.
+O Native Aim é distribuído como um [mod separado no Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3813269725), mantido por Hiro.uou. A versão publicada é **0.4.11**. Ele pode ser usado sem o pacote 3D Models e mantém o ID de mod **`ViewpointADSTest`**; Viewpoint e ZombieBuddy continuam sendo dependências.
+
+Os arquivos desta pasta são um **snapshot de colaboração da 0.4.9**. A separação dos itens na Steam não atualiza esses fontes para reproduzir o binário 0.4.11. Compilar esta pasta gera o snapshot descrito aqui; para jogar com a versão publicada, use o item da Steam. As dependências do jogo, Viewpoint e ZombieBuddy não fazem parte deste repositório.
+
+Quem já usava a mira no pacote completo deve assinar o novo item e ativar `ViewpointADSTest`. Consulte [a migração dos dois mods](../../Docs/MOD-SPLIT.md).
 
 - `source/local/vpads/`: alinhamento da mira/câmera, esqueleto, cinemática dos braços, prioridade de ações, captura, respiração, movimento e coice.
 - `mod/42/media/lua/client/ViewpointADSTest.lua`: ativação e comunicação com o módulo Java.
