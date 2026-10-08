@@ -1,0 +1,5 @@
+newmtl NativeSurface
+Kd 1 1 1
+d 1
+illum 1
+map_Kd pz_g023_appliances_misc_01_old_generator_UV.png

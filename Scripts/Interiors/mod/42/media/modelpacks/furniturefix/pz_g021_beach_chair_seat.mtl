@@ -1,0 +1,6 @@
+newmtl Native_Beach_Chair
+Kd 1 1 1
+Ka 0 0 0
+d 1
+illum 1
+map_Kd pz_g021_beach_chair_native_UV.png

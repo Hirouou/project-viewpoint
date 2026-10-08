@@ -1,0 +1,6 @@
+newmtl native
+Ka 0 0 0
+Kd 1 1 1
+d 1
+illum 1
+map_Kd pz_g018_fencing_burnt_01_45.png

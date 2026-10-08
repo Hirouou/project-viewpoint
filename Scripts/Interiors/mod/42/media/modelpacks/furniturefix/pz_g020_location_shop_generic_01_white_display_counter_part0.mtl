@@ -1,0 +1,5 @@
+newmtl NativeSurface
+Kd 1 1 1
+d 1
+illum 1
+map_Kd pz_g020_location_shop_generic_01_white_display_counter_part0_UV.png

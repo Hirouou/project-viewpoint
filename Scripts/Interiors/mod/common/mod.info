@@ -1,12 +1,12 @@
-name=Project ViewPoint: 3D Interiors & Native Aim
+name=Project ViewPoint: 3D Models
 id=ViewpointFurnitureFix
 author=Hiro.uou
-description=Low-poly textured interiors for Project ViewPoint: kitchen cabinetry, fridges, stoves, extractor, shelves, bookcases, lamps, sofas, beds, tables, chairs, benches, wardrobes, dressers, paintings and wooden barricades. Requires Project Zomboid 42.21, Viewpoint 0.1.5a-hotfix, ZombieBuddy 2.3.0+, and the [B42] Temporary 42.21 Fix for ZombieBuddy 1.2.
-modversion=0.1.18
+description=Native-style 3D furniture, appliances, props and selected exterior objects for Viewpoint. Custom windows and roof corrections are not included. Visual assets for solo and multiplayer; textures and models remain a work in progress. Requires Project Zomboid 42.21, Viewpoint and base ZombieBuddy. Native Aim is optional and separate.
+modversion=0.1.19
 versionMin=42.21
 versionMax=42.21
 require=\Viewpoint,\ZombieBuddy
-poster=poster.png
+poster=poster.jpg
 
 javaJarFile=media/java/client/ViewpointInteriors.jar
 javaPkgName=local.vpinteriors

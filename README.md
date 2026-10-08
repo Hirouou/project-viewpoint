@@ -1,6 +1,6 @@
 # Project ViewPoint — 3D Models & Native Aim
 
-**Build 42.21 · 3D Models 0.1.18 · Native Aim 0.4.11 · dois mods separados na Steam**
+**Build 42.21 · 3D Models 0.1.19 · Native Aim 0.4.11 · dois mods separados na Steam**
 
 [3D Models — Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3811400314) · [Native Aim — Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3813269725) · [Como funciona a separação](Docs/MOD-SPLIT.md)
 
@@ -8,11 +8,16 @@ O **3D Models** reúne os modelos de interiores e exteriores. O **Native Aim** o
 
 Quem já usava a mira no pacote antigo deve assinar o novo item **Native Aim** e ativar `ViewpointADSTest` no jogo. O item antigo passa a distribuir somente o **3D Models**, com o mesmo ID `ViewpointFurnitureFix`. [Instruções de migração](Docs/MOD-SPLIT.md#para-quem-já-usava-o-pacote-completo).
 
-[Notas completas da 0.1.18](Docs/PATCH-0.1.18.md) · [Validação offline](Docs/Build-0.1.18-Validation.json)
+[Notas da 0.1.19](Docs/PATCH-0.1.19.md) · [Validação offline](Docs/Build-0.1.19-Validation.json)
 
-**Em desenvolvimento:** muitos modelos já estão no jogo, mas ainda não têm as texturas prontas. Alguns modelos continuam com defeitos visuais. Seguimos revisando modelos e materiais e investigando correções de renderização que envolvem o próprio Viewpoint. Os problemas restantes de telhados, paredes e aparelhos HVAC estão registrados; esta versão não promete corrigir todos os prédios do mapa. Ainda não houve nova medição de FPS em gameplay desta build.
+**Foco da 0.1.19:** modelos 3D de móveis, eletrodomésticos, objetos e cenário.
+Todas as janelas 3D e correções de telhados, calhas geradas e HVAC nativo foram
+retiradas. Janelas, paredes e telhados seguem o comportamento padrão do jogo e
+Viewpoint. Muitos modelos ainda têm texturas incompletas e defeitos visuais.
+Os testes offline passaram; multiplayer em sessão real e medição de FPS estão pendentes.
+Requer Viewpoint e ZombieBuddy base 2.3.4 ou mais recente; Extensions é opcional.
 
-Projeto de colaboração mantido por Hiro.uou (conta GitHub `Hirouou`). O catálogo integrado de Interiors registra **2.284 arquivos de modelos e 2.335 ligações de sprites**; os modelos e fontes estão em `Scripts/Interiors`. A biblioteca de pintura UV, separada desse catálogo completo, contém **603 modelos** com mapas de textura e guias para colaboração.
+Projeto de colaboração mantido por Hiro.uou (conta GitHub `Hirouou`). O catálogo integrado de Interiors registra **1.128 modelos declarados e 2.057 ligações de sprites**; os modelos e fontes estão em `Scripts/Interiors`. A biblioteca de pintura UV, separada desse catálogo completo, contém **603 modelos** com mapas de textura e guias para colaboração.
 
 ## 3D Models — galeria da 0.1.18
 

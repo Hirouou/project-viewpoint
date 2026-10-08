@@ -1,0 +1,54 @@
+{
+  "version": "0.1.19",
+  "models": 1128,
+  "sprites": 2057,
+  "runtime_sha256": "45b82554af14fb3a056f91f5c950242c3ff33aeca144f5838f165ef92da7ba3b",
+  "patches": [
+    "Patch_PotatoPackFrame",
+    "Patch_PotatoPackRing",
+    "Patch_SinkBinding",
+    "Patch_SinkContext"
+  ],
+  "tests": {
+    "Hooks": {
+      "exit_code": 0,
+      "result": "PASS 48 assertions: ZombieBuddy discovers exactly 4 canonical patches; 5 Advice methods cover 5 installed hook signatures across 2 jointly woven classes; every retained helper available; no world geometry hooks."
+    },
+    "Sink-Counter": {
+      "exit_code": 0,
+      "result": "PASS 216 actual object/square cases: nine counter families, four angles, oval/rect sinks, attached sprites, overlay, native height offset, removal, unrelated utility sink, no context leak. Two hooks verified with installed Viewpoint/ZombieBuddy."
+    },
+    "Support-Placement": {
+      "exit_code": 0,
+      "result": "PASS 28623 assertions: 5724 real OBJ support contacts; no native Surface mutation, existing native offsets preserved."
+    },
+    "Exterior-Objects": {
+      "exit_code": 0,
+      "result": "PASS 63 assertions: exterior doors and wall lamps keep model square64; indoor furniture and uncertain edges retain masks."
+    },
+    "Potato": {
+      "exit_code": 0,
+      "result": "PASS: 90 checks on Byte Buddy woven ModelPacks; no settings saved"
+    },
+    "Potato-Sink": {
+      "exit_code": 0,
+      "result": "PASS: 40 actual combined Advice/cavity cases; modern and trailer counters, four orientations, overlapping other pack"
+    },
+    "Native-Windows-Roofs": {
+      "exit_code": 0,
+      "result": "PASS 2442 assertions: 40 native/foreign window state cases in solo and multiplayer client modes; no retired architecture entries; native world geometry classes untouched."
+    },
+    "Models": {
+      "exit_code": 0,
+      "result": "PASS"
+    },
+    "Manifest": {
+      "exit_code": 0,
+      "result": "PASS"
+    }
+  },
+  "base_zombiebuddy": "2.3.4",
+  "extension_required": false,
+  "live_multiplayer": "PENDING",
+  "fps_benchmark": "PENDING"
+}

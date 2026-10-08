@@ -1,0 +1,5 @@
+newmtl NativeSurface
+Kd 1 1 1
+d 1
+illum 1
+map_Kd pz_g020_furniture_storage_02_yellow_wall_locker_UV.png

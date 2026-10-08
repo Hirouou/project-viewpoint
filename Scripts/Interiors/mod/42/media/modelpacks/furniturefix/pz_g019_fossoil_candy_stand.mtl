@@ -1,0 +1,5 @@
+newmtl NativeSurface
+Kd 1 1 1
+d 1
+illum 1
+map_Kd pz_g019_fossoil_candy_stand_UV.png

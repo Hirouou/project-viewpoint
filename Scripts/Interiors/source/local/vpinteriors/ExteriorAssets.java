@@ -6,11 +6,12 @@ import zombie.core.properties.PropertyContainer;
 import zombie.iso.IsoDirections;
 import zombie.iso.IsoGridSquare;
 import zombie.iso.IsoObject;
+import zombie.iso.objects.IsoWindow;
 import zombie.iso.SpriteDetails.IsoFlagType;
 import zombie.iso.sprite.IsoSprite;
 import viewpoint.world.Recipe;
 
-/** Exterior wall models must not inherit the visibility mask of the room behind them. */
+/** Exterior object models must not inherit the visibility mask of the room behind them. */
 public final class ExteriorAssets {
     public static final int NO_SQUARE=64;
     private static Field models,square;
@@ -38,10 +39,13 @@ public final class ExteriorAssets {
     public static boolean exterior(IsoObject object,IsoSprite sprite) {
         if(object==null||sprite==null||object.getSquare()==null)return false;
         PropertyContainer p=sprite.getProperties();if(p==null)return false;
+        // Window rendering belongs to native Viewpoint and other packs, including their visibility.
+        if(object instanceof IsoWindow||any(p,IsoFlagType.WindowN,IsoFlagType.WindowW,
+            IsoFlagType.windowN,IsoFlagType.windowW))return false;
         IsoGridSquare q=object.getSquare();
-        boolean north=any(p,IsoFlagType.WindowN,IsoFlagType.windowN,IsoFlagType.doorN,
+        boolean north=any(p,IsoFlagType.doorN,
             IsoFlagType.DoorWallN,IsoFlagType.WallN,IsoFlagType.attachedN,IsoFlagType.WallNW,IsoFlagType.attachedNW);
-        boolean west=any(p,IsoFlagType.WindowW,IsoFlagType.windowW,IsoFlagType.doorW,
+        boolean west=any(p,IsoFlagType.doorW,
             IsoFlagType.DoorWallW,IsoFlagType.WallW,IsoFlagType.attachedW,IsoFlagType.WallNW,IsoFlagType.attachedNW);
         boolean south=any(p,IsoFlagType.attachedS,IsoFlagType.attachedSE,IsoFlagType.WallSE);
         boolean east=any(p,IsoFlagType.attachedE,IsoFlagType.attachedSE,IsoFlagType.WallSE);

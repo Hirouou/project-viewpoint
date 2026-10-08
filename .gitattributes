@@ -1,4 +1,4 @@
-*.obj -text
+*.obj -text whitespace=cr-at-eol
 *.mtl -text
 *.png -text
 *.blend -text

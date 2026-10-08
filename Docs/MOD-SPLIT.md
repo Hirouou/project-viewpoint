@@ -4,7 +4,7 @@ O Project ViewPoint passa a oferecer os modelos 3D e o sistema de mira em itens 
 
 | Mod | Item no Workshop | ID para ativar no jogo | Versão |
 | --- | --- | --- | --- |
-| Project ViewPoint: 3D Models | [Item existente](https://steamcommunity.com/sharedfiles/filedetails/?id=3811400314) | `ViewpointFurnitureFix` | 0.1.18 |
+| Project ViewPoint: 3D Models | [Item existente](https://steamcommunity.com/sharedfiles/filedetails/?id=3811400314) | `ViewpointFurnitureFix` | 0.1.19 |
 | Project ViewPoint: Native Aim | [Novo item](https://steamcommunity.com/sharedfiles/filedetails/?id=3813269725) | `ViewpointADSTest` | 0.4.11 |
 
 O **3D Models** inclui os modelos de interiores e exteriores e sua integração. O **Native Aim** inclui o alinhamento da mira em primeira pessoa, os ajustes de movimento e respiração e o coice. O Native Aim mantém as ações nativas do personagem e a comparação de alinhamento com **F7**.
@@ -20,9 +20,14 @@ Os IDs de mod foram preservados. O ID de Workshop da mira é novo e precisa ser 
 
 ## Conteúdo e limitações
 
-A separação mantém **3D Models 0.1.18** e **Native Aim 0.4.11**. A revisão local de Muldraugh e os experimentos posteriores com janelas e aparelhos HVAC não fazem parte desta publicação. Consulte [as notas da 0.1.18](PATCH-0.1.18.md) para o conteúdo verificado dessa versão.
+O 3D Models 0.1.19 concentra-se em móveis e objetos. Todas as janelas 3D,
+correções de telhados, calhas geradas e HVAC nativo foram removidas. O Native Aim
+continua separado na versão0.4.11. Exigem Viewpoint e ZombieBuddy base2.3.4+;
+ZombieBuddy Extensions é opcional. Veja [as notas da0.1.19](PATCH-0.1.19.md).
 
-Muitos modelos já estão no jogo, mas ainda não têm suas texturas prontas. Alguns modelos apresentam defeitos visuais, e as correções de renderização que envolvem o próprio Viewpoint continuam em andamento. A separação dos downloads não encerra esse trabalho.
+Muitos modelos ainda têm texturas incompletas e defeitos visuais. O trabalho
+continua nos modelos e materiais. Multiplayer em sessão real ainda precisa
+ser validado nesta versão.
 
 ## Colaboração no GitHub
 

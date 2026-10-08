@@ -3,32 +3,44 @@ import os
 from pathlib import Path
 import shutil
 import subprocess
+import tempfile
 
 
 def build_module(module_name, game_dir, dependency_jars, compiler, jar):
     project_root = Path(__file__).resolve().parents[1]
     module_root = project_root / "Scripts" / module_name
     output_root = project_root / "Builds" / module_name
-    classes = output_root / "classes"
-    classes.mkdir(parents=True, exist_ok=True)
+    output_root.mkdir(parents=True, exist_ok=True)
+    # Clean compilation is required when a release removes hooks/resources.
+    temporary = tempfile.TemporaryDirectory(prefix="compile-", dir=output_root)
+    classes = Path(temporary.name) / "classes"
+    classes.mkdir()
     sources = sorted((module_root / "source").rglob("*.java"))
     classpath = os.pathsep.join(str(path) for path in [*sorted(game_dir.glob("*.jar")), *dependency_jars])
     subprocess.run([*compiler, "-encoding", "UTF-8", "-classpath", classpath, "-d", str(classes), *map(str, sources)], check=True)
-    # Include original runtime resources (roof meshes) in the generated JAR.
+    # Include only resources still present in the current source tree.
     for resource in (module_root / "source").rglob("*"):
         if resource.is_file() and resource.suffix not in {".java", ".class"}:
             copied = classes / resource.relative_to(module_root / "source")
             copied.parent.mkdir(parents=True, exist_ok=True)
             shutil.copy2(resource, copied)
-    mod_root = output_root / "mod"
-    shutil.copytree(module_root / "mod", mod_root, dirs_exist_ok=True)
+    mod_root = Path(temporary.name) / "mod"
+    shutil.copytree(module_root / "mod", mod_root)
     package = "local/vpads" if module_name == "NativeAim" else "local/vpinteriors"
     filename = "ViewpointNativeADS.jar" if module_name == "NativeAim" else "ViewpointInteriors.jar"
     destination = mod_root / "42" / "media" / "java" / "client" / filename
     destination.parent.mkdir(parents=True, exist_ok=True)
     subprocess.run([jar, "--create", "--file", str(destination), "-C", str(classes), package], check=True)
-    print(f"Built {module_name}: {destination.relative_to(project_root)}")
-    print("No game files were installed or changed. Model assets are integrated separately.")
+    final = output_root / "mod"
+    # Keep the prior output as a recoverable snapshot instead of merging files
+    # which could revive models or patches removed from the current source.
+    if final.exists():
+        previous = output_root / ("previous-" + Path(temporary.name).name)
+        final.rename(previous)
+    mod_root.rename(final)
+    temporary.cleanup()
+    print(f"Built {module_name}: {(final / destination.relative_to(mod_root)).relative_to(project_root)}")
+    print("No game files were installed or changed.")
 
 
 def main():

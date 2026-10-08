@@ -4,51 +4,24 @@ import java.nio.file.*;
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 import zombie.iso.IsoObject;
-import zombie.iso.objects.IsoWindow;
 import zombie.iso.sprite.IsoSprite;
 import viewpoint.packs.PackBind;
 import viewpoint.render.PackModel;
-import viewpoint.render.PackModels;
 
-/** Rendering-only state and height selection; native objects retain interaction and lights. */
+/** Rendering-only model placement; native objects retain interaction and lights. */
 public final class CurrentAssetSelector {
-    private static final Map<String,PackModel> windows=new ConcurrentHashMap<>();
     private static final Map<String,PackBind> cache=new ConcurrentHashMap<>();
     public static void load(Path pack)throws Exception{
-        windows.clear();cache.clear();
-        for(String state:new String[]{"closed","open","broken","glass_removed"}){
-            Path file=pack.resolve("pz_window_wooden_"+state+".obj");
-            if(Files.isRegularFile(file))windows.put(state,PackModels.of(file.toFile()));
-        }
-        PackModels.publish();
-        WindowAssets.load(pack);
+        cache.clear();
+        SurfaceSupport.load(pack);
     }
     public static PackBind select(IsoSprite sprite,PackBind original){
         IsoObject object=SinkCounterSelector.current();
         if(original==null||sprite==null||object==null)return original;
-        PackBind window=WindowAssets.select(object,sprite,original);
-        if(window!=original)return window;
         String id=SinkCounterSelector.id(original);
         if(id.startsWith("pz_rug_"))
             return replace(original,original.model,original.z-SinkCounterSelector.rise(object));
-        if(id.startsWith("pz_window_wooden_")){
-            String state=state(object,sprite);PackModel model=windows.get(state);
-            if(model!=null)return replace(original,model,original.z-SinkCounterSelector.rise(object));
-        }
-        return original;
-    }
-    static String state(IsoObject object,IsoSprite sprite){
-        if(object instanceof IsoWindow w){
-            if(w.isGlassRemoved())return "glass_removed";
-            if(w.isSmashed()||w.isDestroyed())return "broken";
-            return w.IsOpen()?"open":"closed";
-        }
-        if(sprite.name!=null&&sprite.name.startsWith("fixtures_windows_01_")){
-            try{int index=Integer.parseInt(sprite.name.substring(20));
-                return new String[]{"closed","open","broken","glass_removed"}[(index%8)/2];
-            }catch(RuntimeException ignored){}
-        }
-        return "closed";
+        return SurfaceSupport.select(object,sprite,original);
     }
     private static PackBind replace(PackBind source,PackModel model,float height){
         float angle=SinkCounterSelector.angle(source);

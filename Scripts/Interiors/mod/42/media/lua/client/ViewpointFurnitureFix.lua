@@ -37,7 +37,7 @@ local function registerPack(reportMissing)
 
     lastFailure = nil
     if not loggedSuccess then
-        print("[ViewpointFurnitureFix] 0.1.18 local test registered: roof completion, exterior wall visibility, Potato compatibility and new street models; native window frames and transparent glass; mattress-height bedside table, backed trailer shelf, trailer sink cutouts, and double-sided native foliage cards.")
+        print("[ViewpointFurnitureFix] 0.1.19 models-only registered: 1128 model keys / 2057 sprite bindings. Native windows and roofs unchanged; Native Aim is separate.")
         loggedSuccess = true
     end
     return true
@@ -48,29 +48,3 @@ end
 registerPack(false)
 Events.OnGameBoot.Add(function() registerPack(false) end)
 Events.OnGameStart.Add(function() registerPack(true) end)
-
--- Keep moveable placement aligned with the raised 3D bedside table mesh.
--- Vanilla placement already uses renderYOffset + the sprite's Surface value.
-local bedsideSurfaceBase = {}
-local bedsideSurfaceAligned = false
-local function alignBedsideTableSurface()
-    if bedsideSurfaceAligned then return end
-    local adjusted = 0
-    for index = 52, 55 do
-        local name = "furniture_storage_01_" .. tostring(index)
-        local sprite = getSprite and getSprite(name) or nil
-        local props = sprite and sprite:getProperties() or nil
-        local surface = props and props:has("Surface") and tonumber(props:get("Surface")) or nil
-        if surface ~= nil then
-            if bedsideSurfaceBase[name] == nil then bedsideSurfaceBase[name] = surface end
-            props:set("Surface", tostring(bedsideSurfaceBase[name] + 8))
-            adjusted = adjusted + 1
-        end
-    end
-    if adjusted == 4 then
-        bedsideSurfaceAligned = true
-        print("[ViewpointFurnitureFix] Bedside-table Surface raised by 8 native units for sprites 52-55.")
-    end
-end
-Events.OnGameBoot.Add(alignBedsideTableSurface)
-Events.OnGameStart.Add(alignBedsideTableSurface)

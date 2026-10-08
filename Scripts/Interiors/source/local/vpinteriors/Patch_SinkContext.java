@@ -18,7 +18,6 @@ public class Patch_SinkContext {
         @Advice.Argument(2) float x,@Advice.Argument(3) float y,@Advice.Argument(4) float z,
         @Advice.Argument(5) int square){
         try{if(modelled&&thrown==null){
-            WindowAssets.append(recipe,object,sprite,x,y,z,square);
             ExteriorAssets.preserve(recipe,firstModel,object,sprite,square);
         }}
         finally{if(firstModel>=0)SinkCounterSelector.end();}

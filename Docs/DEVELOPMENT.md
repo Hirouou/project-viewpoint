@@ -1,13 +1,13 @@
 # Desenvolvimento do Project ViewPoint
 
-Este repositório inclui o snapshot de colaboração do Native Aim 0.4.9 e os fontes de Interiores 0.1.18, além dos modelos editáveis e mapas UV. A versão jogável do Native Aim na Steam é 0.4.11; os fontes de colaboração dessa pasta não representam integralmente aquele binário. Os dois módulos agora têm [itens separados no Workshop](MOD-SPLIT.md). O repositório não inclui o código de terceiros que fornece o renderizador Viewpoint, o agente ZombieBuddy ou o próprio jogo.
+Este repositório inclui o snapshot de colaboração do Native Aim 0.4.9 e os fontes de Interiores 0.1.19, além dos modelos editáveis e mapas UV. A versão jogável do Native Aim na Steam é 0.4.11; os fontes de colaboração dessa pasta não representam integralmente aquele binário. Os dois módulos agora têm [itens separados no Workshop](MOD-SPLIT.md). O repositório não inclui o código de terceiros que fornece o renderizador Viewpoint, o agente ZombieBuddy ou o próprio jogo.
 
 ## Dependências locais
 
 - Python 3 para executar a ferramenta de compilação.
 - JDK com suporte à compilação Java 17 e leitura das classes da versão instalada do jogo. Se essas classes exigirem uma versão mais nova que seu JDK, use Eclipse ECJ compatível com a versão do jogo.
 - Instalação legítima do Project Zomboid 42.21.
-- Viewpoint 0.1.5a-hotfix e ZombieBuddy 2.3.0+, com suas dependências compatíveis e o fix exigido pelo projeto.
+- Viewpoint compatível com PZ42.21 e ZombieBuddy base2.3.4+. ZombieBuddy Extensions é opcional.
 
 Obtenha e instale essas dependências pelos canais dos respectivos autores. Não copie seus binários ou fontes para um Pull Request. Forneça os caminhos da sua própria instalação: o projeto não grava caminhos pessoais de outro computador.
 
@@ -21,7 +21,7 @@ python Scripts/build_project.py --module all --game-dir "<pasta do jogo>" --jdk-
 
 Se bibliotecas adicionais não estiverem nos JARs da pasta do jogo, informe cada uma com outro `--dependency-jar`. Use `--module NativeAim` ou `--module Interiors` para trabalhar em apenas um módulo.
 
-Os resultados ficam em `Builds/` e são ignorados pelo Git. A ferramenta não copia, remove ou altera nada na instalação do jogo. Ela compila apenas o código original e copia os controles/configurações do módulo. Modelos, PNGs e poster não são copiados para o runtime automaticamente; a biblioteca UV requer integração separada.
+Os resultados ficam em `Builds/` e são ignorados pelo Git. A ferramenta não copia, remove ou altera nada na instalação do jogo. Ela compila apenas o código original e copia os controles/configurações do módulo. O módulo Interiors inclui os assets aprovados da pasta mod. A biblioteca UV de colaboração continua separada e exige revisão antes da integração.
 
 ### Classes recentes do jogo / Eclipse ECJ
 

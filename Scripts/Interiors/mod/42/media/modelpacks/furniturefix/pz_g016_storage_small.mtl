@@ -1,0 +1,5 @@
+newmtl native_storage
+Kd 1 1 1
+d 1
+illum 1
+map_Kd pz_g016_storage_small_UV.png
